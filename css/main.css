@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.all {
+    background: #f1f1f1;
+}
+
+.menu-side {
+    width: 250px;
+    height: 100vh;
+    background: #FFFFFF;
+    position: fixed;
+    box-shadow: 0 0 30px rgba(100,100,100,0.6);
+}
+
+.menu-side .personal-data {
+    text-align: center;
+    padding-top: 40px;
+    min-width: 250px;
+}
+
+.menu-side .personal-data .top-border {
+    height: 70px;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu-side .personal-data .personal-photo {
+    margin-bottom: 40px;
+    transform: rotate(45deg);
+    filter: grayscale(100%);
+}
+
+.menu-side:hover .personal-data .personal-photo {
+    transition: all .2s ease-in-out;
+    filter: grayscale(0%);
+}
+
+.menu-side .personal-data .personal-name {
+    font-size: 1.9em;
+}
+
+.menu-side .personal-data .personal-more {
+    background: #333;
+    color: #FFF;
+    padding: 10px;
+    font-size: .8em;
+}
+
+.menu-side:hover .personal-data .personal-more {
+    color: rgb(236, 176, 63);
+}
+
+.menu-side nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.menu-side nav ol li {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.menu-side nav ol li a {
+    color:#333;
+    text-decoration: none;
+}
+
+.menu-side nav ol li:hover {
+    background: rgb(236, 176, 63);
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ///////////////////////////////////////////////////// */
+.personal-info .top-border {
+    height: 70px;
+    width: 100%;
+    background: rgb(236, 176, 63);;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.personal-info .icons {
+    text-align: right;
+    padding: 20px 20px 0 0;
+}
+
+.personal-info .icons i {
+    padding: 0 10px;
+    color:#FFF;
+    transition: all .2s ease-in-out;
+}
+
+.personal-info .icons i:hover {
+    padding: 0 10px;
+    color:#333;
+    cursor: pointer;
+}
+
+.personal-info .title {}
+.personal-info .data {}
