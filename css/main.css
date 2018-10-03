@@ -235,7 +235,7 @@ section .data .nombre {
 
 section .data .nombre small {
     color:  #333;
-    background:rgb(236, 176, 63);
+    background:#ccc;
     padding: 10px;
     position: absolute;
     right: 15px;
@@ -276,5 +276,5 @@ section .imagen-pf:hover {
 }
 
 section .mas-pf {
-    margin-top: 30px;
+    margin-top: 40px;
 }
